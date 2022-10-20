@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.navbar {
+  .c1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+.hero {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  h1 {
+    font-family: Open + Sans;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+.bg1{
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  .outer{
+    height: 100%;
+    width: 100%;
+    background-image: url("Media/xcm-animation-outer.svg");
+    background-size: cover;
+  }
+  .inner{
+    height: 100%;
+    width: 100%;
+    background-image: url("Media/xcm-animation-inner.png");
+    background-size: cover;
+  }
+ 
+}
+.btn1 {
+  font-weight: 700;
+  border-radius: 1.5rem;
+  font-size: 16px;
+  padding: 10px 18px;
+  color: #e6007a;
+}
+.btn1-animation {
+  background-color: transparent;
+  border-color: #e6007a;
+  border: solid 1px #e6007a;
+}
+.btn1-animation:hover {
+  background-color: #e6007a;
+  color: white;
+}
+.homenetwork {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h4 {
+    font-family: Open + Sans;
+    font-weight: 900;
+  }
+  h1 {
+    font-family: Open + Sans;
+    font-weight: 900;
+  }
+}
+.PN {
+  background-color: #172026;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  strong {
+    font-size: 60px;
+    font-family: Open + Sans;
+    font-weight: 900;
+  }
+  span {
+    font-size: 20px;
+  }
+  h3 {
+    font-family: Open + Sans;
+    font-weight: 900;
+  }
+  h1 {
+    font-family: Open + Sans;
+    font-weight: 900;
+  }
+}
+.opensourse {
+  background-color: #d64ca8;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  color: white;
+  h1 {
+    font-size: 55px;
+    font-family: Open + Sans;
+    font-weight: 900;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.polkadotteam {
+  background-image: url("Media/web3-summit-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  span {
+    color: white;
+    font-size: 60px;
+    font-family: Open + Sans;
+    font-weight: 900;
+  }
+}
+.cd1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h1{
+    font-family: Open + Sans;
+    font-weight: 900;
+  }
+  .card1 {
+    .card-img-top {
+      width: 100%;
+      height: 29vh;
+    }
+  }
+}
+.involved{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h1{
+    font-family: Open + Sans;
+    font-weight: 900;
+    font-size: 60px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+.footer {
+  background-color: #172026;
+  padding-top: 30px;
+  strong {
+    color: white;
+    font-size: 20px;
+  }
+  li {
+    color: grey;
+    padding: 6px;
+    font-size: 15px;
+  }
+  p {
+    color: white;
+  }
+  .btn {
+    font-weight: 700;
+    border-radius: 1.5rem;
+    font-size: 16px;
+    padding: 8px 16px;
+    color: white;
+  }
+  .btn-animation {
+    background-color: transparent;
+    border-color: #e6007a;
+    border: solid 1px #e6007a;
+  }
+  .btn-animation:hover {
+    background-color: #e6007a;
+  }
+  .f2 {
+    display: flex;
+    p {
+      color: grey;
+      font-size: 13px;
+    }
+  }
+}

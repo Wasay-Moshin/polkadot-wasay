@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -25,9 +26,10 @@ function Header() {
           >
             <ul className="navbar-nav  mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active " href="/">
+                
+                <Link className="nav-link active " to="/technology">
                   <p className="c1">Technology</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link active " href="/">

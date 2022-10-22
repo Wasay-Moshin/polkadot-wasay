@@ -32,24 +32,24 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active " href="/">
+                <Link className="nav-link active " to="/community">
                   <p className="c1">Community</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active " href="/">
+                <Link className="nav-link active " to="/About">
                   <p className="c1">About</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active " href="/">
+                <Link className="nav-link active " to="/Blog">
                   <p className="c1">Blog</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link active " href="/">
+                <Link className="nav-link active " to="/Build">
                   <p className="c1"> Build</p>
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link active " href="/">

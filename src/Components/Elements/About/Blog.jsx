@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-function Cards() {
+function Blog() {
   return (
-    <div className="cd1">
-      <div className="container mt-5">
+    <div className='cd1'>
+       <div className="container mt-5">
         <div className="text-center mb-5">
           <h1>From the blog</h1>
         </div>
@@ -96,7 +96,7 @@ function Cards() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Cards;
+export default Blog

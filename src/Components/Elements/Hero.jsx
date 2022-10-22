@@ -23,7 +23,7 @@ function Hero() {
               <button class="btn1 btn1-animation">Learn Cross-Chain</button>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-5">
             <div className="bg1">
               <div  className='outer'>
               <div className='inner'></div>

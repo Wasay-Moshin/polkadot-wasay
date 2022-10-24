@@ -18,7 +18,7 @@ function Hero() {
               </p>
             </div>
             <div className="mt-4">
-              <button class="btn1 btn1-animation">Start building</button>
+              <button class="btn1 slide-right">Start building</button>
             </div>
           </div>
         </div>

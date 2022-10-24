@@ -1,12 +1,9 @@
-import React from "react";
+import React from 'react'
 
-function Intouch() {
+function Cards() {
   return (
-    <div className="a-intouch">
-      <div className="container">
-        <div className="text-center mt-5 mb-5">
-          <h1>Get in touch</h1>
-        </div>
+    <div className='contact-card'>
+       <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col-md-4">
             <div className="card  px-2 py-2">
@@ -15,7 +12,7 @@ function Intouch() {
                   <img
                     src="Assests/logo-circle-chat.svg"
                     alt=""
-                    width={"70px"}
+                    width={"60px"}
                   />
                 </div>
                 <div className="px-2">
@@ -32,7 +29,7 @@ function Intouch() {
                   <img
                     src="Assests/logo-circle-newsletter.svg"
                     alt=""
-                    width={"70px"}
+                    width={"60px"}
                   />
                 </div>
                 <div className="px-2">
@@ -49,7 +46,7 @@ function Intouch() {
                   <img
                     src="Assests/logo-circle-email.svg"
                     alt=""
-                    width={"70px"}
+                    width={"60px"}
                   />
                 </div>
                 <div className="px-2">
@@ -61,7 +58,7 @@ function Intouch() {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-5 mt-5 text-center">
+          <div className="col-md-5  mt-5 text-center">
             <div>
               <h2>
                 Stay informed of updates <br />
@@ -76,7 +73,7 @@ function Intouch() {
               <div className="vr"></div>
             </div>
           </div>
-          <div className="col-md-5 mt-5 mb-5 text-center">
+          <div className="col-md-5  mt-5 text-center">
             <div>
               <h2>
                 Join the teams building <br /> Polkadot
@@ -88,7 +85,7 @@ function Intouch() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Intouch;
+export default Cards

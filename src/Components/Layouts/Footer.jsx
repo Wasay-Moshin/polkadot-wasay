@@ -73,12 +73,13 @@ function Footer() {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-12  f2">
+          <div className="col-sm-2 col-12  f2">
             <img src="Assests/polkadot-light.svg" alt="" width={"150px"} />
-            <div>
+           
+          </div>
+          <div className="col-sm-8 col-12">
               <p className="m-4 ">© 2022 Web3 Foundation | Impressum | Disclaimer | Privacy</p>
             </div>
-          </div>
         </div>
       </div>
     </div>

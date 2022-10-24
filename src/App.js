@@ -8,6 +8,7 @@ import Community from "./Page/Community";
 import About from "./Page/About";
 import Blog from "./Page/Blog";
 import Build from "./Page/Build";
+import Contact from "./Page/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,6 +25,7 @@ function App() {
             <Route  path="/About" element={<About />}/>
             <Route  path="/Blog" element={<Blog />}/>
             <Route  path="/Build" element={<Build />}/>
+            <Route  path="/Contact" element={<Contact />}/>
           </Routes>
         </Base>
       </BrowserRouter>

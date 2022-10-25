@@ -133,8 +133,8 @@ function Header() {
           >
             <ul className="navbar-nav  mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active " to="/technology">
-                  {/* <span className="dot">.</span> */}
+                <Link className="nav-link active" to="/technology">
+                  <span className="dot">.</span>
                   <p className="c1">Technology</p>
                   
                 </Link>

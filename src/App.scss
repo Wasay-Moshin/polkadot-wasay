@@ -26,10 +26,10 @@
 }
 @keyframes nav-link-ani {
   from {
-    left: 0px;
+    left: -1px;
   }
   to {
-    right: 8px;
+    right: -0px;
   }
 }
 .navbar {
@@ -37,26 +37,26 @@
   .c1 {
     font-size: 20px;
   }
-//   .nav-link{
-//   font-size: 1.2rem;
-//   color: black;
-//   margin: auto 8px;
-//   position: relative;
-// }
-// .dot {
-//   color: #e6007a;
-//   font-size: 2.5rem;
-//   position: absolute;
-//   right: 100%;
-//   top: -35px;
-//   opacity: 0;
-// }
-// &:hover {
-//   .dot {
-//     animation: nav-link-ani 0.5s ease alternate;
-//     opacity: 1;
-//   }
-// }
+  .dot1 {
+    font-size: 1.2rem;
+    color: black;
+    margin: auto 8px;
+    position: relative;
+  }
+  .dot {
+    color: #e6007a;
+    font-size: 2.5rem;
+    position: absolute;
+    right: 100%;
+    top: -35px;
+    opacity: 0;
+  }
+  &:hover {
+    .dot {
+      animation: nav-link-ani 0.5s ease alternate;
+      opacity: 1;
+    }
+  }
 }
 .hero {
   padding-top: 50px;
@@ -907,4 +907,32 @@
     color: #efefef;
     font-size: 18px;
   }
+}
+
+@keyframes move1 {
+  from {
+    top: 0px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+.underline {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
+.underline::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: block;
+  color: inherit;
+  background: #e6007a;
+
+}
+.underline:hover {
+  transition: transform 150ms ease-in-out;
+  will-change: transform;
+  color: black;
 }

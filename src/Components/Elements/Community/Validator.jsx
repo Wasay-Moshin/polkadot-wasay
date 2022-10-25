@@ -41,7 +41,7 @@ function Validator() {
                 New validators will be chosen every 24 hours on mainnet. You’ll
                 need to create separate accounts for Controller, Session, and
                 Stash keys on the Polkadot UI{" "}
-                <a
+                <a 
                   style={{ color: "#e6007a" }}
                   href="https://polkadot.js.org/apps/#/accounts/create"
                   target="_blank"
@@ -76,7 +76,7 @@ function Validator() {
             <button class="btn1 btn1-animation">Read More</button>
             <p className="mt-5">
               You can see validator stats on
-              <a
+              <a 
                 style={{ color: "#e6007a" }}
                 href="https://telemetry.polkadot.io/#/0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3"
                 target="_blank"

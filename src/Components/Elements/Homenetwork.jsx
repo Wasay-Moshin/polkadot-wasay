@@ -46,8 +46,17 @@ function Homenetwork() {
             </div>
             <div className="mt-3">
               <p>
-                Create a custom blockchain in minutes using the Substrate
-                framework. Connect your chain to Polkadot and get
+                Create a custom blockchain in minutes using the{" "}
+                <a
+                  className="underline"
+                  type="button"
+                  href="https://substrate.io/"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                >
+                  Substrate
+                </a>
+                &nbsp; framework. Connect your chain to Polkadot and get
                 interoperability and security from day one. This ease of
                 development helps Polkadot's network grow.
               </p>
@@ -67,9 +76,26 @@ function Homenetwork() {
                 Polkadot consumes a small fraction of the energy used by
                 conventional blockchains thanks to its next-generation nominated
                 proof-of-stake (NPoS) model. Using the equivalent of ~6.6 US
-                households worth of energy per year, Polkadot has the lowest
-                carbon footprint among proof-of-stake protocols analyzed in
-                recent research.
+                households worth of energy per year, Polkadot has the&nbsp;
+                <a
+                  className="underline"
+                  type="button"
+                  href="https://www.bloomberg.com/news/articles/2022-02-02/polkadot-has-smallest-carbon-footprint-crypto-researcher-says"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                >
+                  lowest carbon footprint
+                </a>
+                &nbsp;among proof-of-stake protocols analyzed in&nbsp;
+                <a
+                  className="underline"
+                  type="button"
+                  href="https://www.bloomberg.com/news/articles/2022-02-02/polkadot-has-smallest-carbon-footprint-crypto-researcher-says"
+                  target="_blank"
+                  rel="nofollow noopener noreferrer"
+                >
+                  recent research.
+                </a>
               </p>
             </div>
           </div>
@@ -108,12 +134,15 @@ function Homenetwork() {
           </div>
         </div>
         <div className="text-center mt-5">
-        <div>
-          <h1>Learn more about Polkadot's <br/>technology</h1>
-        </div>
-        <div className="mt-5">
-          <button class="btn1 btn1-animation">Discover Polkadot</button>
-        </div>
+          <div>
+            <h1>
+              Learn more about Polkadot's <br />
+              technology
+            </h1>
+          </div>
+          <div className="mt-5">
+            <button class="btn1 btn1-animation">Discover Polkadot</button>
+          </div>
         </div>
       </div>
     </div>
